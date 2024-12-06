@@ -1,8 +1,15 @@
-// import { useState } from 'react'
+import Article from "./components/Article"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Header />
+      <Article />
+      <Article />
+      <Footer />
+    </>
   )
 }
 
